@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Carrois Gothic';
+    src:  url('../carrois-gothic/CarroisGothic-Regular.ttf') format('truetype');
+}
+body {
+  margin: 0;
+}
+.nav-bar {
+  background-color: #E4E1D5;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0px;
+  color: #474848;
+  font-family: 'Carrois Gothic';
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+li {
+  padding: 0px 2% 0px 2%;
+  display: inline;
+  margin: 0;
+
+  text-decoration: none;
+}
+div.jumbotron {
+  position: relative;
+  max-width: 200px;
+  background-image: url("../img/spaghetti_meatballs.jpg");
+}
