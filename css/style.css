@@ -1,53 +1,96 @@
 @font-face {
-  font-family: 'Carrois Gothic';
-    src:  url('../carrois-gothic/CarroisGothic-Regular.ttf') format('truetype');
+  font-family: 'rubik-black';
+    src:  url('../rubik/Rubik-Black.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'rubik-medium';
+    src:  url('../rubik/Rubik-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'rubik-light';
+    src:  url('../rubik/Rubik-Light.ttf') format('truetype');
+}
+
 body {
   margin: 0;
 }
-.nav-bar {
-  position: fixed;
-  top: 0px;
+
+.container {
+  margin: 0 auto;
+  background-color: #dad2af;
   width: 100%;
-  height: 40px;
-  z-index: 1;
-  background-color: #E4E1D5;
-  text-align: center;
-  margin: 0;
-  padding: 20px 0px;
-  color: #474848;
-  font-family: 'Carrois Gothic';
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
+  height: 2000px;
+  position: relative;
+}
+
+ul {
+  position: absolute;
+  margin: 0 0 0 0;
+  top: 40px;
 }
 li {
-  padding: 0px 2% 0px 2%;
-  display: inline-block;;
-  margin: 0;
-  text-decoration: none;
+  font-family: "rubik-black";
+  font-size: 26px;
+  letter-spacing: 1px;
+  background-color: black;
+  color: white;
+  list-style-type: none;
+  margin: 40px 0;
+  padding: 20px 30px 20px 30px;
+  width: auto;
+  height: auto;
+  text-align: center;
 }
-li:hover {
-  color: #757777;
+
+table {
+  position:absolute;
+  top: 300px;
+  left: 40px;
+  border-collapse: collapse;
+  background-color: white;
+  font-family: "rubik-light";
 }
-div.jumbotron {
-  position: relative;
-  width: 1440px;
-  height: 1080px;
-  background-image: url("../img/spaghetti_meatballs.jpg");
+
+td, th {
+  width: 160px;
+  height: 0;
+  border: 1px solid black;
+  padding: 5px 10px 5px 10px;
+  margin: 0px;
+  text-align: left;
+}
+
+th {
+  font-family: "rubik-medium";
+}
+
+.jumbotron {
+  /*position: relative;*/
+  width: 1200px;
+  height: 800px;
+  background-image: url("../img/waterheader.jpg");
   margin: auto;
 }
-.content {
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-  height: 150px;
-  z-index: 1;
-  background-color: #E4E1D5;
-  /*text-align: center;
-  margin: 0;
-  padding: 20px 0px;
-  color: #474848;
-  font-family: 'Carrois Gothic';
-  text-transform: uppercase;
-  letter-spacing: 1.5px;*/
+
+/*.maintext {
+  font-family: "rubik-black";
+  background-color: black;
+  color: white;
+  width: 300px;
+  height:50px;
+  position: absolute;
+  top: 80px;
+  left: 40px
+
 }
+h1{
+  padding: 0;
+  margin: 0;
+}
+
+.maintext h1: {
+  padding: 10px 20px;
+  letter-spacing: 1px;
+}*/
