@@ -22,12 +22,13 @@
 
 body {
   margin: 0;
+  background-color: #dad2af;
 }
 
 .container {
   margin: 0 auto;
   background-color: #dad2af;
-  width: 100%;
+  width: 1400px;
   height: 2000px;
   position: relative;
 }
@@ -107,23 +108,15 @@ td {
   margin: auto;
 }
 
-/*.maintext {
-  font-family: "rubik-black";
-  background-color: black;
-  color: white;
-  width: 300px;
-  height:50px;
-  position: absolute;
-  top: 80px;
-  left: 40px
+.thumbnails {
+  position: absolute;;
+  top: 150px;
+  right: 100px;
 
 }
-h1{
+
+.thumbnails img {
+  margin: 0px 0px 20px 0px;
   padding: 0;
-  margin: 0;
+  display: block;
 }
-
-.maintext h1: {
-  padding: 10px 20px;
-  letter-spacing: 1px;
-}*/
